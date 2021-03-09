@@ -109,6 +109,7 @@ public class MainActivity extends AppCompatActivity {
         shownum.setText(rann);
         Runnable runnable = new Runnable() {
             @Override
+            hello darkness old my friend
             public void run() {
                 ig.animate().rotationBy(360).withEndAction(this).setDuration(6000).setInterpolator(new LinearInterpolator()).start();
             }
